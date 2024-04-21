@@ -153,6 +153,10 @@
   gap: 20px;
 }
 
+.pictures {
+  gap: 10px;
+}
+
 .section__title {
   color: var(--clr-text-heading);
   font-size: var(--fz-base);
@@ -189,7 +193,7 @@
 }
 
 .section__heading {
-  margin-block-end: 10px;
+  margin-block-end: auto;
   font-size: var(--fz-base);
 }
 
@@ -274,6 +278,10 @@
   .section__gallery-item:nth-child(5) {
     grid-column: 2 / span 2;
   }
+
+  .pictures {
+    gap: 20px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -298,5 +306,9 @@
 
   .section__gallery {
     grid-template-rows: 25.4vi 30.8vi 42.2vi;
+  }
+
+  .pictures {
+    gap: 20px;
   }
 }
