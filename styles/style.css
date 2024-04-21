@@ -189,7 +189,7 @@
 }
 
 .section__heading {
-  margin-block-end: -10px;
+  margin-block-end: 10px;
   font-size: var(--fz-base);
 }
 
