@@ -1,14 +1,31 @@
 .page.theme_dark {
-  --accent-color: #ff0070;
-  --text-color: #f1b2ce;
-  --header-color: #db00ff;
-  --background-image: url(../images/cover-image-dark.png);
-  --title-decor: #ff0070;
-  --main-text-color: #ff0070;
-  --hover-color: color-mix(in srgb, #FF0070 40%, transparent);
-  --big-resolution-shadow: #ff0070;
+  --clr-bg-base: #000028;
+  --clr-bg-accent: #ff0070;
+  --clr-border-btn: rgba(255 0 112 / 0.4);
+  --clr-text-accent: #db00ff;
+  --clr-text-base: #f1b2ce;
+  --clr-text-heading: #ff0070;
+  --clr-text-contrast: #000028;
+  --path-cover-image: url('../images/cover-image-dark.png');
 }
 
-.theme_dark .decorative-icon {
-  display: block;
+.page.theme_dark .header__decor {
+  display: flex;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-bg-base: #000028;
+    --clr-bg-accent: #ff0070;
+    --clr-border-btn: rgba(255 0 112 / 0.4);
+    --clr-text-accent: #db00ff;
+    --clr-text-base: #f1b2ce;
+    --clr-text-heading: #ff0070;
+    --clr-text-contrast: #000028;
+    --path-cover-image: url('../images/cover-image-dark.png');
+  }
+
+  .header__decor {
+    display: flex;
+  }
 }

@@ -1,15 +1,15 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
 :root {
-  --accent-color: #ff0070;
-  --text-color: #f1b2ce;
-  --header-color: #db00ff;
-  --main-font: 'IBM Plex Mono', Courier, monospace;
-  --title-decor: #ff0070;
-  --main-text-color: #ff0070;
-  --background-image: url(../images/cover-image-dark.png);
-  --hover-color: color-mix(in srgb, #FF0070 40%, transparent);
-  --big-resolution-shadow: #ff0070;
-} 
+  --clr-bg-base: #000028;
+  --clr-bg-accent: #ff0070;
+  --clr-border-btn: rgba(255 0 112 / 0.4);
+  --clr-box-shadow: #ff0070;
+  --clr-text-accent: #db00ff;
+  --clr-text-base: #f1b2ce;
+  --clr-text-heading: #ff0070;
+  --clr-text-contrast: #000028;
+  --ff-main: 'IBM Plex mono';
+  --fz-base: 18px;
+  --padding-base: 10px;
+  --path-cover-image: url('../images/cover-image-dark.png');
+  --fz-text-cover: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+}
